@@ -3,6 +3,6 @@ terraform {
     bucket = var.bucket
     key = var.bucket_prefix
     region = var.regionname
-    dynamodb_table = var.dynamodb_table
+    dynamodb_table = "terraform-backend-table"
   }
 } 
