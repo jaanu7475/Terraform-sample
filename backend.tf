@@ -3,6 +3,6 @@ terraform {
     bucket = "my-tf-test-bucket"
     key = "security/terraform.tfstate"
     region = "eu-central-1"
-    encrypt = "true"
+    dynamodb_table = "S3-backend-dynamodb-table"
   }
 }
