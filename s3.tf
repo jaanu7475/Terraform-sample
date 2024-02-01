@@ -1,9 +1,6 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
-
-  tags = {
-    Name        = "terrafrom-bucket-01"
-  }
+  bucket = "s3-terraform-backend-01"
+  
 }
 
 
